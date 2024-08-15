@@ -5,7 +5,6 @@ const formEl = document.getElementById('blogForm');
 let blogpost = [];
 
 blogpost = JSON.parse(localStorage.getItem('blogpost'))||[];
-console.log(blogpost);
 
 formEl.addEventListener('submit', (event) => {
     event.preventDefault();
