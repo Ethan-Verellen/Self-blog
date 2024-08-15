@@ -1,0 +1,9 @@
+document.getElementById("darkmode").addEventListener('click', (event) => {
+    event.preventDefault();
+    console.log('test')
+    var element = document.body;
+   element.classList.toggle("dark-mode");
+   titleEL.style.borderTop = "white";
+   titleEL.style.borderLeft = "white";
+   titleEL.style.borderRight = "white";
+});
