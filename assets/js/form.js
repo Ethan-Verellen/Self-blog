@@ -15,6 +15,7 @@ formEl.addEventListener('submit', (event) => {
     
 
     if (blogtitle == "" || blogusername == "" || blogcontent == "") {
+        alert('please fill in all squares');
         return;
     }
 
