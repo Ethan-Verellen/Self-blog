@@ -1,5 +1,4 @@
 const splitPost = JSON.parse(localStorage.getItem('blogpost'));
-console.log(splitPost);
 const fullblog = document.getElementById('post');
 
 function bloging() {
@@ -21,10 +20,6 @@ function bloging() {
         nameEL.textContent=`By: ${splitPost[i].username}`;
         singleblog.appendChild(nameEL);
         fullblog.appendChild(singleblog);
-        // titleEL.style.borderTop = "solid black";
-        // titleEL.style.borderLeft = "solid black";
-        // titleEL.style.borderRight = "solid black";
-
     }
 };
 document.getElementById("back").addEventListener('click', (event) => {
