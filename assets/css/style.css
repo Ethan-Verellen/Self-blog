@@ -1,0 +1,41 @@
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+#darkmode {
+    float: right;
+    padding-left: 10px;
+    border-bottom: double;
+}
+#top {
+    border-bottom: solid;
+   font-size: 25px;
+   padding-bottom: 2%;
+}
+
+#center {
+    border-top: solid;
+    margin-top: 3px;
+    height: 100%;
+}
+
+#left {
+    border-right: solid;
+   float: left;
+   width: 49%;
+   margin-right: 12px;
+   padding-top: 3px;
+}
+
+#right {
+    border-left: solid;
+    width: 49%;
+    height: 100%;
+    margin-left: 15px;
+   float: right;
+   text-align: center;
+   padding-top: 10%;
+   padding-bottom: 15.8%;
+}
